@@ -1,0 +1,2337 @@
+{
+  "name": "Medical Diagnosis",
+  "intents": [
+    {
+      "intent": "Register",
+      "examples": [
+        {
+          "text": "I want to register"
+        },
+        {
+          "text": "Register"
+        },
+        {
+          "text": "How do I sign up?"
+        },
+        {
+          "text": "How do I get verified?"
+        },
+        {
+          "text": "I'd like to register as a user"
+        },
+        {
+          "text": "Can you show me how to register?"
+        },
+        {
+          "text": "I'm a doctor."
+        },
+        {
+          "text": "Can I register myself"
+        },
+        {
+          "text": "I need to register"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "get_updates",
+      "examples": [
+        {
+          "text": "send me updates"
+        },
+        {
+          "text": "receive updates"
+        },
+        {
+          "text": "receive news"
+        },
+        {
+          "text": "get news"
+        },
+        {
+          "text": "can you send me updates?"
+        },
+        {
+          "text": "I want to get updates"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "good"
+        },
+        {
+          "text": "You've been so helpful :)"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "This is great"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What do you do?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "connect_doctor",
+      "examples": [
+        {
+          "text": "I need medical help"
+        },
+        {
+          "text": "Connect to doctor"
+        },
+        {
+          "text": "I need to chat with a doctor"
+        },
+        {
+          "text": "Can you connect me to a doctor"
+        },
+        {
+          "text": "Connect me to a doctor"
+        },
+        {
+          "text": "I need a doctor"
+        },
+        {
+          "text": "I need to see a doctor"
+        },
+        {
+          "text": "Talk to physician"
+        },
+        {
+          "text": "Talk to doctor"
+        },
+        {
+          "text": "Can I talk to a doctor"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "I'm in pain"
+        },
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Terrible"
+        },
+        {
+          "text": "I don't feel good"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "I'm suffering"
+        },
+        {
+          "text": "I'm injured"
+        },
+        {
+          "text": "I'm hurt"
+        },
+        {
+          "text": "Not great"
+        },
+        {
+          "text": "Bad"
+        },
+        {
+          "text": "You're too stupid"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "I feel bad"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are having delusions"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "connect_community",
+      "examples": [
+        {
+          "text": "Can I connect to the community"
+        },
+        {
+          "text": "Can you connect me to the community"
+        },
+        {
+          "text": "Connect me to the community"
+        },
+        {
+          "text": "I need to talk with someone"
+        },
+        {
+          "text": "I want to chat with the community"
+        },
+        {
+          "text": "I want to talk to someone in the community"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "mental_wellbeing",
+      "examples": [
+        {
+          "text": "psychological health"
+        },
+        {
+          "text": "mental health"
+        },
+        {
+          "text": "cognitive behavioural therapy"
+        },
+        {
+          "text": "mental wellbeing"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "About you"
+        },
+        {
+          "text": "What should I know about you?"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "send_updates",
+      "examples": [
+        {
+          "text": "I want to publish update"
+        },
+        {
+          "text": "I want to send news"
+        },
+        {
+          "text": "I want to send updates"
+        },
+        {
+          "text": "publish updates"
+        },
+        {
+          "text": "give updates"
+        },
+        {
+          "text": "publish news"
+        },
+        {
+          "text": "update news"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Am I chatting with a human?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "Finished now, good bye"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "Analyze_Symptoms",
+      "examples": [
+        {
+          "text": "I'm hurt"
+        },
+        {
+          "text": "I don't feel well"
+        },
+        {
+          "text": "I need medical help"
+        },
+        {
+          "text": "Can you analyze my symptoms?"
+        },
+        {
+          "text": "I feel sick"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "What is your favorite joke?"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hello bot"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "diseaseDiagnostics",
+      "examples": [
+        {
+          "text": "diagnose disease"
+        },
+        {
+          "text": "I am sick"
+        },
+        {
+          "text": "diagnose"
+        },
+        {
+          "text": "Help me diagnose"
+        },
+        {
+          "text": "what disease do I have"
+        },
+        {
+          "text": "help me i am sick"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "startover",
+      "examples": [
+        {
+          "text": "Reset"
+        },
+        {
+          "text": "New session"
+        },
+        {
+          "text": "Start from the beginning"
+        },
+        {
+          "text": "Start again"
+        },
+        {
+          "text": "Restart"
+        },
+        {
+          "text": "start over"
+        },
+        {
+          "text": "refresh"
+        },
+        {
+          "text": "Can i start again?"
+        },
+        {
+          "text": "Can i start a new session?"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "symptom",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "wound",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "scratch",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "headache",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "injury",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "pain",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "community",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "responder",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "community",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "first responder",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "user_type",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Doctor",
+          "synonyms": [
+            "Nurse",
+            "Medic",
+            "physician",
+            "surgeon",
+            "doctors",
+            "paramedic",
+            "pharmacist",
+            "pediatrician",
+            "expert",
+            "doctor"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Community",
+          "synonyms": [
+            "Online member"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "User",
+          "synonyms": [
+            "Victim",
+            "Normal User"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "doctor",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Doctor",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "expert",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "medical expert",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "doctor_type",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Psychiatrist",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pediatrician",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Nurse",
+          "synonyms": [
+            "Nursing"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Dermatologist",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Neurologist",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Radiologist",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "General Physician",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Surgeon",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "mood",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "happy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "depressed",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "distressed",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "tired",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "anxious",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "content",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "traumatized",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "fear",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "scared",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "angry",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "shocked",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sad",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-location",
+      "values": []
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sometimes things aren't necessarily as bad as you perceive them. Things and events happen objectively in life, but their effects to us are often very subjective. For example, one may view stress as a negative feeling. But as many studies have pointed out, it can also be viewed as our body's mechanism to prepare for what's coming and rise up to the challenge. Now I want you to tell me, what was the thing that happened that make you feel $main_mood?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1561337052370",
+      "context": {
+        "main_mood": "@mood"
+      },
+      "metadata": {},
+      "conditions": "@mood",
+      "dialog_node": "node_18_1561340208835",
+      "previous_sibling": "node_17_1561340168481"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, this is a good start. I will keep note of that.\n\nIf you ever feel low, know that I will be there for you. Have a great day!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1561337052370",
+      "metadata": {},
+      "conditions": "@mood:content",
+      "dialog_node": "node_17_1561340168481",
+      "previous_sibling": "node_16_1561340149353"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great to hear! I will keep note of that. I certainly hope you keep it that way ;) \n\nIf you ever feel low, know that I will be there for you. Have a great day!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1561337052370",
+      "metadata": {},
+      "conditions": "@mood:happy",
+      "dialog_node": "node_16_1561340149353"
+    },
+    {
+      "type": "standard",
+      "title": "Opt to Update",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "All set! You will receive real time updates about your area."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1562801106651",
+      "actions": [
+        {
+          "name": "/sparrowplatform2%40gmail.com_dev/OptToUpdate",
+          "type": "cloud_function",
+          "parameters": {
+            "address": "<? $user_address ?>",
+            "session": "<? $system.session_id ?>"
+          },
+          "credentials": "$credentials",
+          "result_variable": "$response"
+        }
+      ],
+      "context": {
+        "credentials": {
+          "api_key": "cf3a1811-1e41-469e-8671-e9e61dd72a6f:8VQbi7viyZAMIzS9AZpCYE5W5nXeQfckhFPftaxHABG5xU5flOAWACmXF8LwdHOv"
+        },
+        "user_address": "<? input.text ?>"
+      },
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_3_1562879752236"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "What is your area of specialty?"
+      },
+      "parent": "slot_60_1560731221097",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_62_1560731221097",
+      "previous_sibling": "handler_61_1560731221097"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_60_1560731221097",
+      "context": {
+        "doctor_type": "@doctor_type"
+      },
+      "conditions": "@doctor_type",
+      "event_name": "input",
+      "dialog_node": "handler_61_1560731221097"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, please enter the symptom name"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1562891369833",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_2_1560669986757"
+      },
+      "conditions": "#General_Positive_Feedback",
+      "dialog_node": "node_3_1562891157553",
+      "previous_sibling": "node_1_1562891069689"
+    },
+    {
+      "type": "standard",
+      "title": "otherResponse",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I din't get that.."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1562891369833",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1562891369833"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_14_1562914257887",
+      "previous_sibling": "node_3_1562891157553"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "While I am finding list of possible diseases, please confirm that you will use my advice only for preliminary analysis and will talk to some medical expert for proper diagnostics. \n\n Please confirm by saying 'Yes'."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1562891369833",
+      "actions": [
+        {
+          "name": "/sparrowplatform2@gmail.com_dev/PredictDisease",
+          "type": "cloud_function",
+          "parameters": {
+            "symptoms": "$symptoms"
+          },
+          "credentials": "$credentials",
+          "result_variable": "context.diseaseResponse"
+        }
+      ],
+      "context": {
+        "response": null,
+        "credentials": {
+          "api_key": "cf3a1811-1e41-469e-8671-e9e61dd72a6f:8VQbi7viyZAMIzS9AZpCYE5W5nXeQfckhFPftaxHABG5xU5flOAWACmXF8LwdHOv"
+        },
+        "skip_user_input": false
+      },
+      "metadata": {},
+      "conditions": "#General_Negative_Feedback",
+      "dialog_node": "node_1_1562891069689"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. I will these that in my record.\n\nTake a minute to think through these advice and reflect on how they might help with how you perceive the emotions/feelings you are going through. And with that, you have completed your check-in for today. We encourage you to come back regularly and frequently so we can help monitor and track your mental health."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_20_1561342369485",
+      "actions": [
+        {
+          "name": "/sparrowplatform2%40gmail.com_dev/SaveMentalRecord",
+          "type": "cloud_function",
+          "parameters": {
+            "main_mood": "<? $main_mood ?>",
+            "main_event": "<? $main_event ?>",
+            "severity_level": "<? $severity_level ?>",
+            "secondary_moods": "<? $secondary_moods ?>"
+          },
+          "credentials": "$credentials",
+          "result_variable": "$mental_response"
+        }
+      ],
+      "context": {
+        "credentials": {
+          "api_key": "cf3a1811-1e41-469e-8671-e9e61dd72a6f:8VQbi7viyZAMIzS9AZpCYE5W5nXeQfckhFPftaxHABG5xU5flOAWACmXF8LwdHOv"
+        },
+        "severity_level": "@sys-number"
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_23_1561364893655",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_55_1560729880692",
+      "metadata": {},
+      "variable": "$years_of_exp",
+      "dialog_node": "slot_63_1560731261926",
+      "previous_sibling": "slot_60_1560731221097"
+    },
+    {
+      "type": "slot",
+      "parent": "node_55_1560729880692",
+      "variable": "$doctor_type",
+      "dialog_node": "slot_60_1560731221097",
+      "previous_sibling": "node_1_1561326578770"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, let's try again.<#>Please tell me your area of expertise and how many years of experience you have in that area."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_55_1560729880692",
+      "context": {
+        "doctor_type": null,
+        "years_of_exp": null
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_55_1560729880692"
+      },
+      "conditions": "#General_Negative_Feedback",
+      "dialog_node": "node_1_1561326578770",
+      "previous_sibling": "node_4_1560738953572"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": []
+        }
+      },
+      "parent": "node_55_1560729880692",
+      "actions": [
+        {
+          "name": "/sparrowplatform2%40gmail.com_dev/RegisterUser",
+          "type": "cloud_function",
+          "parameters": {
+            "area": "<? $doctor_type ?>",
+            "year": "<? $years_of_exp ?>",
+            "session": "<? $system.session_id ?>"
+          },
+          "credentials": "$credentials",
+          "result_variable": "$response"
+        }
+      ],
+      "context": {
+        "credentials": {
+          "api_key": "cf3a1811-1e41-469e-8671-e9e61dd72a6f:8VQbi7viyZAMIzS9AZpCYE5W5nXeQfckhFPftaxHABG5xU5flOAWACmXF8LwdHOv"
+        },
+        "skip_user_input": true
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#General_Positive_Feedback",
+      "dialog_node": "node_4_1560738953572",
+      "previous_sibling": "handler_8_1561328907313"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please tell me your area of expertise and how many years of experience you have in that area. You can say something like \"I am a nurse with 10 years of experience\""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_55_1560729880692",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_8_1561328907313"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I would encourage you to take it easy. Let the worry go, and change your focus of attention. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1562366670322",
+      "metadata": {},
+      "conditions": "#General_Negative_Feedback",
+      "dialog_node": "node_3_1562366860208",
+      "previous_sibling": "node_2_1562366782844"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, now think you are trying to solve it as a problem or challenge. Work out what you can do to solve it. Curate a list of potential solutions/options.\n\nGo through the list, is there something you can do RIGHT now?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1562366670322",
+      "metadata": {},
+      "conditions": "#General_Positive_Feedback",
+      "dialog_node": "node_2_1562366782844"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The response is $response "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_66_1560732296442",
+      "actions": [
+        {
+          "name": "/sparrowplatform2%40gmail.com_dev/ConnectToExpert",
+          "type": "cloud_function",
+          "parameters": {
+            "type": "<? $desired_doctor_type ?>",
+            "session": "<? $system.session_id ?>"
+          },
+          "credentials": "$credentials",
+          "result_variable": "$response"
+        }
+      ],
+      "context": {
+        "credentials": {
+          "api_key": "cf3a1811-1e41-469e-8671-e9e61dd72a6f:8VQbi7viyZAMIzS9AZpCYE5W5nXeQfckhFPftaxHABG5xU5flOAWACmXF8LwdHOv"
+        },
+        "desired_doctor_type": "@doctor_type"
+      },
+      "metadata": {},
+      "conditions": "@doctor_type",
+      "dialog_node": "node_68_1560733030221"
+    },
+    {
+      "type": "slot",
+      "parent": "node_23_1561364893655",
+      "dialog_node": "slot_31_1561408127244"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "How many years of experience do you have?"
+      },
+      "parent": "slot_63_1560731261926",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_65_1560731261926",
+      "previous_sibling": "handler_64_1560731261926"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_63_1560731261926",
+      "context": {
+        "years_of_exp": "@sys-number"
+      },
+      "metadata": {},
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_64_1560731261926"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You are now registered! \\n\\nThanks for joining us in out effort to help disaster affected people!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_51_1560676108179",
+      "metadata": {},
+      "conditions": "@user_type:Community",
+      "dialog_node": "node_56_1560729882445",
+      "previous_sibling": "node_55_1560729880692"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Let me confirm, you are a $doctor_type, with $years_of_exp years of experience, correct?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_51_1560676108179",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "@user_type:Doctor || @doctor",
+      "dialog_node": "node_55_1560729880692",
+      "digress_out": "allow_all",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, what is the actual update you would like to send to people in this area?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1562802605444",
+      "context": {
+        "target_location": "<? input.text ?>"
+      },
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_2_1562914124615"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Succesfully sent your update!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1562914124615",
+      "actions": [
+        {
+          "name": "/sparrowplatform2%40gmail.com_dev/SendUpdate",
+          "type": "cloud_function",
+          "parameters": {
+            "update": "<? $user_update ?>",
+            "address": "<? $target_location ?>",
+            "session": "<? $system.session_id ?>"
+          },
+          "credentials": "$credentials",
+          "result_variable": "$response"
+        }
+      ],
+      "context": {
+        "credentials": {
+          "api_key": "cf3a1811-1e41-469e-8671-e9e61dd72a6f:8VQbi7viyZAMIzS9AZpCYE5W5nXeQfckhFPftaxHABG5xU5flOAWACmXF8LwdHOv"
+        },
+        "user_update": "<? input.text ?>"
+      },
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_1_1562910266595"
+    },
+    {
+      "type": "frame",
+      "title": "captureSymptom",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1559290262675",
+      "actions": [
+        {
+          "name": "/sparrowplatform2@gmail.com_dev/LookUpSymptoms",
+          "type": "cloud_function",
+          "parameters": {
+            "symptoms": "<? input.text ?>"
+          },
+          "credentials": "$credentials",
+          "result_variable": "context.symptomValidated"
+        }
+      ],
+      "context": {
+        "response": null,
+        "credentials": {
+          "api_key": "cf3a1811-1e41-469e-8671-e9e61dd72a6f:8VQbi7viyZAMIzS9AZpCYE5W5nXeQfckhFPftaxHABG5xU5flOAWACmXF8LwdHOv"
+        },
+        "skip_user_input": false
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_2_1560669986757",
+      "digress_out": "allow_all",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_31_1561408127244",
+      "event_name": "focus",
+      "dialog_node": "handler_33_1561408127244",
+      "previous_sibling": "handler_32_1561408127244"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_31_1561408127244",
+      "event_name": "input",
+      "dialog_node": "handler_32_1561408127244"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Connecting you to someone who can help.\n\nYou can always disconnect by saying '@sparrow disconnect' "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_52_1560676396210",
+      "metadata": {},
+      "conditions": "@community",
+      "dialog_node": "node_67_1560732756362",
+      "previous_sibling": "node_66_1560732296442"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What type of doctor are you seeking consultation from? You can try nurse, psychiatrist, general physician or dermatologist\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_52_1560676396210",
+      "metadata": {},
+      "conditions": "@doctor",
+      "dialog_node": "node_66_1560732296442"
+    },
+    {
+      "type": "standard",
+      "title": "confirmThatUserWillTalkToExpert",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi, here is my preliminary disease diagnostics result based on your inputs: \n\n $diseaseResult <#>As I said earlier, these are preliminiary results, and they can not replace a expert advice. I can help you connect with a expert doctor. Say 'Connect to doctor' to begin!\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1562891069689",
+      "context": {
+        "diseaseResult": "<?$diseaseResponse['data']?>"
+      },
+      "metadata": {},
+      "conditions": "#General_Positive_Feedback",
+      "dialog_node": "node_1_1563079697270"
+    },
+    {
+      "type": "standard",
+      "title": "incorrectSymptomEntered",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That doesn't match with any symptoms that I know. $symptomValidated.data"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1560669986757",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_2_1560669986757"
+      },
+      "conditions": "$symptomValidated['isSymptom']==false",
+      "dialog_node": "node_9_1562892029782",
+      "previous_sibling": "node_4_1562891369833"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1560669986757",
+      "dialog_node": "slot_9_1562725701553",
+      "previous_sibling": "node_9_1562892029782"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": []
+        }
+      },
+      "parent": "node_2_1560669986757",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_7_1560670080621",
+      "previous_sibling": "slot_9_1562725701553"
+    },
+    {
+      "type": "standard",
+      "title": "checkIfMoreSymptoms",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do you want to report any other symptoms?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1560669986757",
+      "context": {
+        "symptoms": "<? $symptoms + $symptomValidated.data + '|' ?>"
+      },
+      "metadata": {},
+      "conditions": "$symptomValidated['isSymptom']==true",
+      "dialog_node": "node_4_1562891369833"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Congrats, you have been registered. We will let you know once we verify your credentials. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1560738953572",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_2_1561193427243",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "CBT backup: anythingelse",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Keep in mind that whatever the situation is, most likely there are folks who are experiencing just the same. Don't hesitate to reach out to others or the community when you feel like having someone to talk or relate to. \n\nHearing each other out, expressing your thoughts and learning how others overcome the hardship have proven to help with negative emotions. <#>Do you think that these emotions are negatively affecting parts of your life? \n\nAnswer with a number from 0-10, 0 being not affecting at all and 10 being hindering normal daily activities."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_19_1561340253633",
+      "context": {
+        "secondary_moods": "<? input.text ?>"
+      },
+      "metadata": {},
+      "conditions": "false",
+      "dialog_node": "node_20_1561342369485"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That's alright. I would encourage you to think about how in the future you might be able to tackle it. And don't forget, we might have someone in the community who could be going through exactly the same thing and can help with one another.\n\nIn the meantime, I want you to stop worrying about it and think of something merrier."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1562366782844",
+      "metadata": {},
+      "conditions": "#General_Negative_Feedback",
+      "dialog_node": "node_5_1562367799200",
+      "previous_sibling": "node_4_1562367797475"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I would encourage you to get on with it now!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1562366782844",
+      "metadata": {},
+      "conditions": "#General_Positive_Feedback",
+      "dialog_node": "node_4_1562367797475"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. I want you to keep in mind that very few things in life are permanent. Depending on how things develop and your perspectives change, you are likely to view these events and feelings differently down the road. \n\nSo if any of these events are bearing a heavy weight on you, keep in mind that they will get better as time moves on. <#>Now, can you walk me through some of your less strong or finer feelings/emotions throughout this event? They can be temporary ones."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_18_1561340208835",
+      "context": {
+        "main_event": "<? input.text ?>"
+      },
+      "metadata": {},
+      "conditions": "false",
+      "dialog_node": "node_19_1561340253633",
+      "previous_sibling": "node_1_1562366670322"
+    },
+    {
+      "type": "standard",
+      "title": "CBT",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay I will take note of that. \n\nNow tell me, is it something that you have control over or you can do something about?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_18_1561340208835",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_1_1562366670322"
+    },
+    {
+      "type": "response_condition",
+      "output": {},
+      "parent": "node_2_1561193427243",
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_4_1561194041702"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1562725701553",
+      "event_name": "focus",
+      "dialog_node": "handler_11_1562725701553",
+      "previous_sibling": "handler_10_1562725701553"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_9_1562725701553",
+      "event_name": "input",
+      "dialog_node": "handler_10_1562725701553"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, let's get you some updates! First, tell me your current location. Try to be as specific as you can."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#get_updates || @sys-number:5",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1562801106651",
+      "previous_sibling": "node_9_1561337052370"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, please make sure what you are about to send is accurate, relevant,  and pertains to the particular geolocation you will enter below.\n\nNow, can you tell me to what area you would like to send this update? Try to be as specific as you can."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#send_updates || @sys-number:6",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1562802605444",
+      "previous_sibling": "node_1_1562801106651"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am here to help you figure out what disease you are suffering from, to enable quick first aid.\n\nPlease remember that my diagnostics capabilities cannot replace an expert doctor. My recommendations are to help you and doctors make better decisions. I can help you connect with a real doctor once we are done with data-driven diagnostics.\n\nLet's initiate the diagnostics.<#>Can you describe the symptoms you are experiencing right now? Enter as many symptoms as you can to get accurate results. Enter one symptom at a time, starting with the most severe ones."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "symptoms": ""
+      },
+      "metadata": {},
+      "conditions": "#Analyze_Symptoms || @sys-number:1 || #diseaseDiagnostics",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1559290262675",
+      "previous_sibling": "node_1_1561190388239"
+    },
+    {
+      "type": "standard",
+      "title": "CBT",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Before we get started, take a deep breath. Can you tell me the one emotion/feeling you are feeling the strongest right now?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "false || @sys-time:4",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1561337052370",
+      "previous_sibling": "node_51_1560676108179"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hey there, I'm Sparrow. I am here to help. \n\nDuring emergencies, say \"help\" or \"sos\".<#> Here are few things I can help you with: \n\n1. Diagnose diseases; get information about medicines, diseases and preventive measures \n\n2. Connect to a medical experts or community members for help. \n\n3. Help others - Register as a doctor or first responder. \n\n4. Get emotional and psychological support \n\n5. Get updates and alerts for your locality.\n\n6. Publish updates and alerts for an area.\n\n<#>You can specify a number or simply say what you want help with. At any point, we can start over - say \"start over\" or \"refresh\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "digress_in": "does_not_return",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_2_1562802605444"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Would you like to connect to a expert or someone from the community?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#connect_doctor || @sys-number:2 || #connect_community",
+      "dialog_node": "node_52_1560676396210",
+      "previous_sibling": "node_1_1559290262675"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Let's get you aboard! Would you like to register as an expert, or a first responder?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "doctor_type": null,
+        "years_of_exp": null
+      },
+      "metadata": {},
+      "conditions": "#Register || @sys-number:3",
+      "dialog_node": "node_51_1560676108179",
+      "previous_sibling": "node_52_1560676396210"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hey there, I'm Sparrow. I am here to help. \n\nDuring emergencies, say \"help\" or \"sos\".<#> Here are few things I can help you with: \n\n1. Diagnose diseases; get information about medicines, diseases and preventive measures \n\n2. Connect to a medical experts or community members for help. \n\n3. Help others - Register as a doctor or first responder. \n\n4. Get emotional and psychological support \n\n5. Get updates and alerts for your locality.\n\n6. Publish updates and alerts for an area.\n<#>You can specify a number or simply say what you want help with. At any point, we can start over - say \"start over\" or \"refresh\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "symptom_1": null,
+        "symptom_2": null,
+        "doctor_type": null,
+        "sym_number_1": null,
+        "sym_number_2": null,
+        "years_of_exp": null
+      },
+      "metadata": {},
+      "conditions": "#startover",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1561190388239"
+    }
+  ],
+  "workspace_id": "57c6aa93-0ca8-42fc-a592-b6fc0d340231",
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
