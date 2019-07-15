@@ -16,6 +16,7 @@ It contains dialogs for Medical diagnostics and Cognitive Behavioural therapy.
 - Also contains dialog for subscribing to and creating updates 
 
 ## Cloud functions 
+**Note: all URL/API credentials are removed**
 - AnalyzeTone.js
 Cloud functon for Analyzing text tone using IBM Watson NLP
 
